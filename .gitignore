@@ -1,1 +1,40 @@
-#gitignore added
+# --- Python Core ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+build/
+dist/
+
+# --- Mobile Edge Computing (MEC) Specific ---
+# Local device/edge node configurations
+config.local.yaml
+settings.private.json
+.env
+*.secret
+
+# Edge AI Models (TFLite, ONNX, etc.) 
+# These are usually too large for Git; track the download script instead.
+*.tflite
+*.onnx
+*.pb
+*.h5
+*.model
+
+# --- Research & Data ---
+# Raw telemetry, edge logs, and datasets
+data/raw/
+data/processed/
+*.log
+*.csv
+*.jsonl
+*.npy
+
+# --- System & IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.ipynb_checkpoints/
