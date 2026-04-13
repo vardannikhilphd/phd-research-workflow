@@ -16,7 +16,8 @@ Best when you want a clean, concise history without intermediate steps.
 
 # Missing Value Strategy 
 
-For this project, missing numeric values are imputed using the mean. 
+For this project, missing numeric values are handled using mean imputation because it is simple and suitable for 
+small experimental datasets.
 
 # Visualisation Plan
 
